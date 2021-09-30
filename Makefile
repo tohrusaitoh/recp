@@ -1,10 +1,9 @@
 DATE := $(shell date +%Y/%m/%d)
 HOSTNAME := $(shell hostname)
 
-files = sample1.html \
-	# sample2.html sample2.css
+all:;		echo $(DATE)-$(HOSTNAME)
 
-add:;		git add $(files)
+add:;		git add -u
 commit:;	git commit -m $(DATE)-$(HOSTNAME)
 push:;		git push origin main
 pull:;		git pull origin main
