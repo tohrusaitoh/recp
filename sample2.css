@@ -12,6 +12,26 @@ h2 {
     padding-top: 2px;
     padding-left: 10px;
     padding-bottom: 2px;
-    background-color:   #FFF;
+    background-color: white;
     border-color: #A0FFFF;
+}
+th {
+    text-align: center ;
+    background-color: #E0FFFF ;
+    text-weight: bold ;
+}
+td.ID {
+    text-align: center ;
+    color: gray ;
+}
+td.NAME {
+    text-align: center ;
+    color: #000080 ;
+    font-size: 1.2em;
+    font-weight: bold ;
+}
+td.PRICE {
+    text-align: right ;
+    color: red ;
+    font-weight: bold ;
 }
