@@ -6,14 +6,17 @@
 斉藤徹 \
 - https://tsaitoh.net/
 - https://github.com/tohrusaitoh/recp
-- git clone https://github.com/tohrusaitoh/recp.git
+
+~~~
+$ git clone https://github.com/tohrusaitoh/recp.git
+~~~
 
 ## プログラミング応用
 - 2021/11/07
--- Webアプリケーションとプログラム言語
+	- Webアプリケーションとプログラム言語
 - 2021/11/14
--- JavaScriptによるフロントエンドプログラミング
+	- JavaScriptによるフロントエンドプログラミング
 - 2021/11/21
--- PHPによるバックエンドプログラミング
+	- PHPによるバックエンドプログラミング
 - 2021/11/28
--- Webプログラミングとセキュリティ
+	- Webプログラミングとセキュリティ
