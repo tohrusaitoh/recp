@@ -1,10 +1,15 @@
 ##
 
-DATE := $(shell date +%Y/%m/%d)
-HOSTNAME := $(shell hostname)
+PROJECT		= recp
+REPOSITORY	= origin
+BRANCH		= main
+
+DATE		:= $(shell date +%Y/%m/%d)
+HOSTNAME	:= $(shell hostname)
 
 all:		add commit push
-		echo $(DATE)-$(HOSTNAME) "github への更新完了"
+		@echo Project:$(PROJECT) Repository:$(REPOSITORY) Branch:$(BRANCH)
+		@echo $(DATE)-$(HOSTNAME) "github への更新完了"
 
 # ((github))
 # http形式	https://github.com/tohrusaitoh/recp.git
@@ -12,6 +17,6 @@ all:		add commit push
 
 add:;		git add -u
 commit:;	git commit -m $(DATE)-$(HOSTNAME)
-push:;		git push origin main
+push:;		git push $(REPOSITORY) $(BRANCH)
 
-pull:;		git pull origin main
+pull:;		git pull $(REPOSITORY) $(BRANCH)
