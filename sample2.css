@@ -1,3 +1,7 @@
+body {
+    background-color: white ;
+}
+
 h1 {
     text-align: center ;
     color: blue ;
@@ -32,6 +36,6 @@ td.NAME {
 }
 td.PRICE {
     text-align: right ;
-    color: red ;
+    color: red ;m
     font-weight: bold ;
 }
