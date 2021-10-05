@@ -10,14 +10,14 @@
 ## プログラミング応用の予定
 - *2021/11/07*
 	- Webアプリケーションとプログラム言語
-	- [理解確認](https://forms.gle/Zzs6UqiZvYPuvomq7)
+
 
 - *2021/11/14*
 	- JavaScriptによるフロントエンドプログラミング
 
-
 - *2021/11/21*
 	- PHPによるバックエンドプログラミング
+	
 - *2021/11/28*
 	- Webプログラミングとセキュリティ
 
@@ -33,6 +33,7 @@
 $ cd public_html
 $ git clone https://github.com/tohrusaitoh/recp.git
 ~~~
+	- [理解確認](https://forms.gle/Zzs6UqiZvYPuvomq7)
 
 ## (11/14) JavaScriptによるフロントエンドプログラミング
 
