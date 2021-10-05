@@ -20,10 +20,10 @@
 - *2021/11/28*
 	- Webプログラミングとセキュリティ
 
-## サーバで講義データのダウンロード
+## サーバで講義データのダウンロードs
 
-- [Paiza Cloud](https://paiza.cloud/ja/) のアカウントを作り、
-サーバを作って、ターミナルで以下のコマンドを入力。
+- [Paiza Cloud](https://paiza.cloud/ja/) のアカウントを作る。
+- ターミナルで以下のコマンドを入力。
 ~~~
 $ cd public_html
 $ git clone https://github.com/tohrusaitoh/recp.git
