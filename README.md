@@ -34,8 +34,6 @@ $ cd public_html
 $ git clone https://github.com/tohrusaitoh/recp.git
 ~~~
 
-- [理解確認](https://forms.gle/Zzs6UqiZvYPuvomq7)
-
 ## (11/14) JavaScriptによるフロントエンドプログラミング
 
 ## (11/21) PHPによるバックエンドプログラミング
