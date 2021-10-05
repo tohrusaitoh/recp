@@ -23,6 +23,6 @@ all:		add commit push
 
 add:;		git add -u
 commit:;	git commit -m $(DATE)-$(HOSTNAME)
-push:;		git push $(REPOSITORY) $(BRANCH)
+push:;		git push # $(REPOSITORY) $(BRANCH)
 
-pull:;		git pull $(REPOSITORY) $(BRANCH)
+pull:;		git pull # $(REPOSITORY) $(BRANCH)
