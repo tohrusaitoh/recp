@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Sample Page 3</title>
+    <script type="text/javascript">
+      function main() {
+	  let num = 112233 ; /* 数値 */
+	  let str = "abcdefg" ; /* 文字列 */
+	  let array = [ 1 , 2 , 3 , 4 , 5 ] ; /* 配列 */
+
+	  /* + 演算子は、数値の加算 or 文字列の連結 */
+	  document.getElementById( "output" ).innerHTML
+	      = "number="+num+"<br/>"
+	      + "string="+str+"<br/>"
+	      + "array="+array+"<br/>" ;
+      }
+    </script>
+  </head>
+  <body onload="main()">
+    <h1>Sample Page 3</h1>
+    <div id="output"></div>
+  </body>
+</html>
