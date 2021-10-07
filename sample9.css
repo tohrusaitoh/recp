@@ -1,0 +1,48 @@
+body {
+    background-color: white ;
+}
+
+h1 {
+    text-align: center ;
+    color: blue ;
+    font-weight: bold ;
+}
+h2 {
+    font-size: 1.2em;
+    border-left-width: 0.5em;
+    border-left-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    padding-top: 2px;
+    padding-left: 10px;
+    padding-bottom: 2px;
+    background-color: white;
+    border-color: #A0FFFF;
+}
+th {
+    text-align: center ;
+    background-color: #E0FFFF ;
+    text-weight: bold ;
+}
+td.ID {
+    text-align: center ;
+    color: gray ;
+}
+td.NAME {
+    text-align: center ;
+    color: #000080 ;
+    font-size: 1.2em;
+    font-weight: bold ;
+}
+td.PRICE {
+    text-align: right ;
+    color: red ;m
+    font-weight: bold ;
+}
+input.COUNT {
+    text-align: center ;
+    background-color: #FFFFE0 ;
+}
+input.SUBMIT {
+    background-color: #FFFFA0 ;
+}
