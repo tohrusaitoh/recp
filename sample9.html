@@ -15,14 +15,31 @@
 	      1020 : 3 ,  // りんご×3個
 	      1022 : 1 ,  // パイナップル×1個
 	  } ;
+	  
+	  let sum = __________ ;
 	  let text = "<table border='1'>" ;
-	  text += "<tr><th>id</th><th>name</th><th>price</th></tr>" ;
-	  for( let item of item_list ) {
+	  // 表の属性を表示
+	  text += "<tr>"
+	      + "<th>id</th>"
+	      + "<th>name</th>"
+	      + "<th>price</th>"
+	      + "<th>個数</th>"
+	      + "</tr>" ;
+	  for( let item of __________ ) {
+	      // item.id の購入数
+	      let buy = __________ ;
+	      // 行の表示
 	      text += "<tr>"
 		  + "<td>"+item.id+"</td>"
 		  + "<td>"+item.name+"</td>"
-		  + "<td>"+item.price+"</td></tr>" ;
+		  + "<td>"+item.price+"</td>"
+	      	  + "<td>"+___________+"</td>"
+		  + "</tr>" ;
+	      // @単価 * 購入数
+	      __________ += __________ ;
 	  }
+	  text += "</table>" ;
+	  text += "合計="+sum ;
 	  document.getElementById( "output" ).innerHTML
 	      = text ;
       }
