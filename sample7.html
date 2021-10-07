@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Sample Page 7(連想配列)</title>
+    <script type="text/javascript">
+      function main() {
+	  let tsaitoh = {
+	      "name":	"斉藤 徹" ,
+	      "age":	56 ,
+	      "addr":	"福井県越前市" ,
+	  } ;
+	  text = "<table border='1'>" ;
+	  for( let key in tsaitoh ) {
+	      text += "<tr>"
+		  + "<th>"+key+"</th>"
+		  + "<td>"+tsaitoh[key]+"</td>"
+		  + "</tr>" ;
+	  }
+	  text += "</table>" ;
+	  document.getElementById( "output" ).innerHTML
+	      = text ;
+      }
+    </script>
+  </head>
+  <body onload="main()">
+    <h1>Sample Page 7(連想配列)</h1>
+    <div id="output"></div>
+  </body>
+</html>

@@ -2,7 +2,7 @@
 <html lang="ja">
   <head>
     <meta charset="utf-8"/>
-    <title>Sample Page 9(配列との串刺し)</title>
+    <title>Sample Page 8(オブジェクトの配列)</title>
     <script type="text/javascript">
       function main() {
 	  let item_list = [
@@ -10,11 +10,6 @@
 	      { "id" : 1020 , "name": "りんご" ,	"price" : 100  } ,
 	      { "id" : 1022 , "name": "パイナップル" ,	"price" : 1000 } ,
 	  ] ;
-	  let buy_list = {
-	      1010 : 5 ,  // みかん×5個
-	      1020 : 3 ,  // りんご×3個
-	      1022 : 1 ,  // パイナップル×1個
-	  } ;
 	  let text = "<table border='1'>" ;
 	  text += "<tr><th>id</th><th>name</th><th>price</th></tr>" ;
 	  for( let item of item_list ) {
@@ -29,7 +24,7 @@
     </script>
   </head>
   <body onload="main()">
-    <h1>Sample Page 9(配列との串刺し)</h1>
+    <h1>Sample Page 8(オブジェクトの配列)</h1>
     <div id="output"></div>
   </body>
 </html>

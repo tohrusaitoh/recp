@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Sample Page 10(発注ページ)</title>
+    <link rel="stylesheet" type="text/css" href="sampleA.css">
+    <script type="text/javascript">
+      
+      // ここは、本来ならサーバから商品一覧をもらってくる
+      var item_list = [
+	  { "id" : 1010 , "name": "みかん" , "price" : 50 } ,
+	  { "id" : 1020 , "name": "りんご" , "price" : 100 } ,
+	  { "id" : 1022 , "name": "パイナップル" , "price" : 1000 } ,
+      ] ;
+      
+      // 商品データの1行分のHTMLを作る
+      function item_row( item ) {
+	  let ans ;
+	  ans = "<tr>" ;
+	  ans += "<td class='ID'>"+item.id+"</td>" ;
+	  ans += "<td class='NAME'>"+item.name+"</td>" ;
+	  ans += "<td class='PRICE'>"+item.price+"</td>" ;
+	  ans += "<td>"
+	      + "<input type='text' size='3' class='COUNT' onchange='sum_items()' id='"+item.id+"'/>"
+	      + "</td>" ;
+	  ans += "</tr>" ;
+	  return ans ;
+      }
+      
+      // 発注ボタンで呼び出される処理
+      //    本当は発注情報の通信をしたいけど、
+      //    今回はポップアップで表示
+      function submit_order() {
+	  let order = {} ;
+	  let order_text = "" ;
+	  for( let item of item_list ) {
+	      let num = document.getElementById( item.id ).value ;
+	      let val = parseInt( num , 10 ) ;
+	      if ( !isNaN( val ) ) {
+		  // console.log( "item.id="+item.id+"("+num+")" ) ;
+		  order[ item.id ] = val ;
+		  order_text += " "+item.id+":"+val ;
+	      }
+	  }
+	  alert( "order" + order_text ) ;
+      }
+      // 個数の入力欄が書き換えられたら呼び出される処理
+      function sum_items() {
+	  let sum = 0 ;
+	  for( let item of item_list ) {
+	      let num = document.getElementById( item.id ).value ;
+	      let val = parseInt( num , 10 ) ;
+	      if ( !isNaN( val ) ) {
+		  // console.log( "item.id="+item.id+"("+num+")" ) ;
+		  sum += val * item.price ;
+	      }
+	  }
+	  document.getElementById( "sum_items" ).innerHTML
+	      = "合計="+sum+"円"
+	      + " <input type='submit' value='発注' class='SUBMIT' onclick='submit_order()' />" ;
+      }
+      // 最初の処理
+      function main() {
+	  let item_list_text = "" ;
+	  for( let item of item_list ) {
+	      item_list_text += item_row( item ) ;
+	  }
+	  item_list_text += "<tr><td colspan='4' id='sum_items' style='text-align: right;'>合計:</td></tr>" ;
+	  document.getElementById( "itemlist" ).innerHTML
+	      = item_list_text ;
+      }
+    </script>
+  </head>
+  <body onload="main()">
+    <h1>Sample Page A<br/>(発注ページ)</h1>
+    
+    <table border="1">
+      <thead>
+	<tr>
+	  <th>注文ID</th>
+	  <th>商品名</th>
+	  <th>単価</th>
+	  <th>個数</th>
+	</tr>
+      </thead>
+      <tbody id="itemlist">
+      </tbody>
+    </table>
+  </body>
+</html>

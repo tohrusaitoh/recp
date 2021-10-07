@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Sample Page 6(練習問題)</title>
+    <script type="text/javascript">
+      // array に入っている値で"*"を使った棒グラフを表示したい。
+      // プログラムの ____ 部分にふさわしい命令を考えよう
+
+      // str を n 回繰り返した文字を作る関数
+      function strtimes( str , n ) {
+	  let ans = "" ;
+	  for( let i = 1 ; __________ ; __________ )
+	      ans += __________ ;
+	  return ans ;
+      }
+      function main() {
+	  // グラフにしたいデータ
+	  let array = [ 1 , 3 , 5 , 9 , 10 , 6 , 3 , 2 ] ; /* 配列 */
+
+	  // 配列全部を順次棒グラフにする。
+	  let out = "" ;
+	  for( let n of array ) {
+	      out += n + " : " + strtimes( __________ , __________ ) + "<br/>" ;
+	      // ("00"+n).slice(-2) を使うと、数字の前に0を埋めて2桁表示にしてくれる。
+	  }
+	  document.getElementById( __________ ).innerHTML
+	      = __________ ;
+      }
+    </script>
+  </head>
+  <body onload="__________">
+    <h1>Sample Page 6(練習問題)</h1>
+    <h2>棒グラフ</h2>
+    <div id="output"></div>
+  </body>
+</html>
