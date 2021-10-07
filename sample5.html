@@ -5,22 +5,42 @@
     <title>Sample Page 5(制御構文)</title>
     <script type="text/javascript">
       function main() {
-	  let array = [ 1 , 2 , 3 , 4 , 5 ] ; /* 配列 */
+	  let array = [ 1 , 2 , 3 , 4 , 5 , 6 ] ; /* 配列 */
+	  
 	  let sum = 0 ;
 	  let step = "" ;
-	  for( let i of array ) {
-	      step = step + ": " + sum + "," + i + "<br/>" ;
-	      // step += ": "...と書いてもいい
+	  
+	  for( let i = 1 ; i <= 10 ; i++ ) {
 	      sum = sum + i ;
 	      // sum += i ; と書いてもいい
+	      step = step + ": " + sum + "," + i + "<br/>" ;
+	      // step += ": "...と書いてもいい
 	  }
+	  /*
+	  sum = 0 ;    // 配列の繰り返しを理解するために
+	  step = "" ;  // コメントを外してみよう
+	  for( let i of array ) {
+	      sum = sum + i ;
+	      step = step + ": " + sum + "," + i + "<br/>" ;
+	  }
+	  */
+	  /*
+	  sum = 0 ;    // if 文の意味を理解するために
+	  step = "" ;  // コメントを外してみよう。
+	  for( let i of array ) {
+	      if ( i % 2 == 0 ) {  // % 余りを求める。 i%2==0 偶数ならば
+		  sum = sum + i ;
+		  step = step + ": " + sum + "," + i + "<br/>" ;
+	      }
+	  }
+	  */
 	  document.getElementById( "output" ).innerHTML
 	      = step + "合計=" + sum ;
       }
     </script>
   </head>
   <body onload="main()">
-    <h1>Sample Page 5(制御構文)</h1>
+    <h1>Sample Page 5<br/>(制御構文)</h1>
     <div id="output"></div>
   </body>
 </html>
