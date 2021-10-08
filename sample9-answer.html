@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Sample Page 9(配列との串刺し)</title>
+    <script type="text/javascript">
+      function main() {
+	  let item_list = [
+	      { "id" : 1010 , "name": "みかん" ,	"price" : 50   } ,
+	      { "id" : 1020 , "name": "りんご" ,	"price" : 100  } ,
+	      { "id" : 1022 , "name": "パイナップル" ,	"price" : 1000 } ,
+	  ] ;
+	  let buy_list = {
+	      1010 : 5 ,  // みかん×5個
+	      1020 : 3 ,  // りんご×3個
+	      1022 : 1 ,  // パイナップル×1個
+	  } ;
+	  
+	  let sum = 0 ;
+	  let text = "<table border='1'>" ;
+	  // 表の属性を表示
+	  text += "<tr>"
+	      + "<th>id</th>"
+	      + "<th>name</th>"
+	      + "<th>price</th>"
+	      + "<th>個数</th>"
+	      + "</tr>" ;
+	  for( let item of item_list ) {
+	      // item.id の購入数
+	      let buy = buy_list[ item.id ] ;
+	      // 行の表示
+	      text += "<tr>"
+		  + "<td>"+item.id+"</td>"
+		  + "<td>"+item.name+"</td>"
+		  + "<td>"+item.price+"</td>"
+	      	  + "<td>"+buy+"</td>"
+		  + "</tr>" ;
+	      // @単価 * 購入数
+	      sum += item.price * buy ;
+	  }
+	  text += "</table>" ;
+	  text += "合計="+sum ;
+	  document.getElementById( "output" ).innerHTML
+	      = text ;
+      }
+    </script>
+  </head>
+  <body onload="main()">
+    <h1>Sample Page 9<br/>(配列との串刺し)</h1>
+    <div id="output"></div>
+  </body>
+</html>
