@@ -9,16 +9,16 @@
 
 ## プログラミング応用の予定
 - *2021/11/07*
-	- Webアプリケーションとプログラム言語
+	- [Webアプリケーションとプログラム言語](https://tsaitoh.net/~t-saitoh/2021-11-recp/2021-11-07-recp-1.pdf)
 
 - *2021/11/14*
-	- JavaScriptによるフロントエンドプログラミング
+	- [JavaScriptによるフロントエンドプログラミング](https://tsaitoh.net/~t-saitoh/2021-11-recp/2021-11-07-recp-2.pdf)
 
 - *2021/11/21*
-	- PHPによるバックエンドプログラミング
+	- [PHPによるバックエンドプログラミング](https://tsaitoh.net/~t-saitoh/2021-11-recp/2021-11-07-recp-3.pdf)
 	
 - *2021/11/28*
-	- Webプログラミングとセキュリティ
+	- [Webプログラミングとセキュリティ](https://tsaitoh.net/~t-saitoh/2021-11-recp/2021-11-07-recp-3.pdf)
 
 ## サーバで講義データのダウンロード
 
