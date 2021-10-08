@@ -7,6 +7,10 @@
 - https://tsaitoh.net/
 - https://github.com/tohrusaitoh/recp
 
+## 資料配布ページ
+
+- https://tsaitoh.net/~t-saitoh/2021-11-recp/
+
 ## プログラミング応用の予定
 - *2021/11/07*
 	- [Webアプリケーションとプログラム言語](https://tsaitoh.net/~t-saitoh/2021-11-recp/2021-11-07-recp-1.pdf)
