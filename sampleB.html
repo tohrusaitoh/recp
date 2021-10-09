@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Sample Page 11(jQueryの基本)</title>
+    <script src="jquery/jquery.min.js"></script>
+  </head>
+  <body>
+    <h1>Sample Page 11<br/>(jQueryの基本)</h1>
+    <div id="output"></div>
+    <div class="word">こんにちは</div>
+    <div class="hilight">今日は晴れています。</div>
+    <div class="word">こんばんは</div>
+    <div class="hilight">今日は月が綺麗だな。</div>
+    <script type="text/javascript">
+      $(function () {
+	  // タグの中を書き換え
+	  $("div#output").text( "Hello World" ) ;
+	  // タグの中のスタイルを変更
+	  $("div.word").css( "color","red" ) ;
+	  $("div.hilight").hover(
+	      function() { $(this).css( "background-color" , "yellow" ) ; } ,
+	      function() { $(this).css( "background-color" , "white" ) ;  } ) ;
+	  // スタイルシートでも実現できるけど。
+	  // div.word {
+	  //   color: red ;
+	  // }
+	  // div.highlight {
+	  //   background-color: white ;
+	  // }
+	  // div.highlight:hover {
+	  //   background-color: yellow ;
+	  // }
+      }) ;
+    </script>
+  </body>
+</html>
+
