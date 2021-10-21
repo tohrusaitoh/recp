@@ -21,7 +21,7 @@
 	  $("div.hilight").hover(
 	      function() { $(this).css( "background-color" , "yellow" ) ; } ,
 	      function() { $(this).css( "background-color" , "white" ) ;  } ) ;
-	  // スタイルシートでも実現できるけど。
+	  // wordとhilightは、スタイルシートでも実現できる。
 	  // div.word {
 	  //   color: red ;
 	  // }
@@ -32,7 +32,19 @@
 	  //   background-color: yellow ;
 	  // }
       }) ;
+      // JavaScriptの function() { ... } は無名関数という仕組み。
+      // 関数の引数に無名関数が書いてあると、
+      // すぐにその処理が実行される訳ではない。
+      // 必要なタイミングで、関数を実行してくれる。
+      // jQueryの
+      //	$( function() {...} ) ; "$"関数に引数の無名関数を渡している。
+      //	$( "..." ).メソッド() ;  "$"関数に"..."を引数として実行し、
+      //				 得られたオブジェクトにメソッドを適用
     </script>
   </body>
 </html>
 
+<!-- Local Variables: -->
+<!-- mode: html -->
+<!-- tab-width: 8 -->
+<!-- End: -->
