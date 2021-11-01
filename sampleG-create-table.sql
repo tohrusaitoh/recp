@@ -9,6 +9,14 @@ create table ITEMLIST (
        price integer  	 	not null
 ) ;
 
+-- 顧客リスト
+drop table if exists USERLIST ;
+create table USERLIST (
+       id    integer		primary key ,
+       name  varchar( 20 )	not null ,
+       age   integer		not null
+) ;
+
 -- 購入リスト
 drop table if exists BUYLIST ;
 create table BUYLIST (
