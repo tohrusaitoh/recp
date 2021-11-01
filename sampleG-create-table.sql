@@ -29,5 +29,5 @@ create table BUYLIST (
 
 -- ER図
 --       (品目)--------------(購入)-------------(顧客)
---      ／ |  ＼              ／ ＼            ／ |  ＼
+--      ／ |  ＼             ／  ＼            ／ |  ＼
 -- *i_id i_name i_price  b_count *b_date  *u_id u_name u_age
