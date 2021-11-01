@@ -1,10 +1,10 @@
 -- 品目リスト --
 -- create table ITEMLIST (
---       id    integer		primary key ,
---       name  varchar( 20 )	not null ,
---       price integer  	 	not null ,
+--       i_id    integer	primary key ,
+--       i_name  varchar( 20 )	not null ,
+--       i_price integer  	not null ,
 -- ) ;
 
-insert into ITEMLIST ( id , name , price ) values( 1010 , 'みかん' ,         50 ) ;
-insert into ITEMLIST ( id , name , price ) values( 1020 , 'りんご' ,        100 ) ;
-insert into ITEMLIST ( id , name , price ) values( 1022 , 'パイナップル' , 1000 ) ;
+insert into ITEMLIST ( i_id , i_name , i_price ) values( 1010 , 'みかん' ,         50 ) ;
+insert into ITEMLIST ( i_id , i_name , i_price ) values( 1020 , 'りんご' ,        100 ) ;
+insert into ITEMLIST ( i_id , i_name , i_price ) values( 1022 , 'パイナップル' , 1000 ) ;
