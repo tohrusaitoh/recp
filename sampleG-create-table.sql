@@ -2,7 +2,7 @@
 --	最初に一度だけ実行する
 
 -- 品目リスト
-drop table ITEMLIST if exists ;
+drop table if exists ITEMLIST ;
 create table ITEMLIST (
        id    integer		primary key ,
        name  varchar( 20 )	not null ,
@@ -10,7 +10,7 @@ create table ITEMLIST (
 ) ;
 
 -- 購入リスト
-drop table BUYLIST if exists ;
+drop table if exists BUYLIST ;
 create table BUYLIST (
        id    integer		primary key , 
        count integer		not null
