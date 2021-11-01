@@ -26,3 +26,10 @@ commit:;	git commit -m $(DATE)-$(HOSTNAME)
 push:;		git push $(REPOSITORY) $(BRANCH)
 
 pull:;		git pull $(REPOSITORY) $(BRANCH)
+
+shopping.db:	sampleG-create-table.sql	\
+		sampleG-insert-itemlist.sql	\
+		sampleG-insert-userlist.sql	\
+		sampleG-insert-buylist.sql
+		bash sampleG.sh
+clean:;		rm -f *.db
