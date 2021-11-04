@@ -27,9 +27,8 @@ push:;		git push $(REPOSITORY) $(BRANCH)
 
 pull:;		git pull $(REPOSITORY) $(BRANCH)
 
-shopping.db:	sampleG-create-table.sql	\
-		sampleG-insert-itemlist.sql	\
-		sampleG-insert-userlist.sql	\
-		sampleG-insert-buylist.sql
+shopping.db:	sampleG-itemlist.sql	\
+		sampleG-userlist.sql	\
+		sampleG-buylist.sql
 		bash sampleG.sh
 clean:;		rm -f *.db
