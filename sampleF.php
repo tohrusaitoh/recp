@@ -8,10 +8,22 @@
     <h1>Sample Page 15<br/>(様々な入力フォーム)</h1>
     <form method="GET" action="sampleF.php">
       <table border="1">
-      <tr><td>名前(text)      </td><td><input type="text" size="10" name="NAME" /></td></tr>
-      <tr><td>パスワード(password)</td><td><input type="password" size="10" name="PASS" /></td></tr>
-      <tr><td>隠れた値(hidden)  </td><td><input type="hidden" name="HIDDEN" value="隠れた値" /></td></tr>
-      <tr><td>ご意見(textarea)	</td><td><textarea name="OPINION" cols="20" rows="4"></textarea></td></tr>
+      <tr>
+        <td>名前(text)      </td>
+        <td><input type="text" size="10" name="NAME" /></td>
+      </tr>
+      <tr>
+        <td>パスワード(password)</td>
+        <td><input type="password" size="10" name="PASS" /></td>
+      </tr>
+      <tr>
+        <td>隠れた値(hidden)  </td>
+        <td><input type="hidden" name="HIDDEN" value="隠れた値" /></td>
+      </tr>
+      <tr>
+        <td>ご意見(textarea)</td>
+        <td><textarea name="OPINION" cols="20" rows="4"></textarea></td>
+      </tr>
       <tr>
         <td>性別(radio)</td>
         <td>
