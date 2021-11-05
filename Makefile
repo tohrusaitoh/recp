@@ -26,3 +26,9 @@ commit:;	git commit -m $(DATE)-$(HOSTNAME)
 push:;		git push $(REPOSITORY) $(BRANCH)
 
 pull:;		git pull $(REPOSITORY) $(BRANCH)
+
+shopping.db:	sampleG-itemlist.sql	\
+		sampleG-userlist.sql	\
+		sampleG-buylist.sql
+		bash sampleG.sh
+clean:;		rm -f *.db
