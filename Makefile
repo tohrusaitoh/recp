@@ -3,6 +3,7 @@
 # ((github))
 # http形式	https://github.com/tohrusaitoh/recp.git
 # ssh形式	git@github.com:tohrusaitoh/recp.git
+# original	https://tsaitoh.net/~t-saitoh/recp/
 
 GH_ID		= tohrusaitoh
 GH_PROJECT	= recp
