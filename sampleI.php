@@ -66,9 +66,14 @@
          // > chmod 666 ~/public_html/recp/shopping.db
          // $dbh = new PDO( "sqlite:shopping.db" ) ;
          foreach( $_REQUEST["b_count"] as $i_id => $b_count ) {
+      
+           // 作成するSQL命令: insert into BUYLIST(i_id,...) values(1001,...)
 	   $sql = "insert into BUYLIST"
 	     ." (i_id,u_id,b_date,b_count)"
 	     ." values($i_id,".$user["u_id"].",'".$user["b_date"]."',$b_count);" ;
+
+	   // 本当はSQLを exec( $sql ) で実行したいけど、
+	   // 書き込み権限の設定が面倒なので、SQLを確認するだけ
            print "$sql\n<br/>" ;
            // $ans = $dbh->exec( $sql ) ;
          }
