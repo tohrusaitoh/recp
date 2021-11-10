@@ -1,0 +1,13 @@
+AuthType Basic
+AuthName "Input ID and Password"
+AuthUserFile /home/t-saitoh/public_html/2021-11-recp/.htpasswd
+
+<RequireAny>
+require ip   192.168.0.0/16
+require host .fukui-nct.ac.jp
+require host .u-fukui.ac.jp
+require host .ttn.ne.jp
+require host .hikari.fibernet.jp
+require host .kanazawa-it.ac.jp
+require valid-user
+</RequireAny>
