@@ -111,7 +111,7 @@ if ( preg_match( "/\/recp\//" , $_SERVER[ "REQUEST_URI" ] )
 	  <li>
         課題レポート
         <ol>
-	    <li><a href="https://forms.gle/SnBufgGGs4g8Q4uf7">理解度確認(11/28)</a></li>
+	    <li><a href="https://forms.gle/YtPadHirnDENSHCf9">理解度確認(11/28)</a></li>
         <li>講義の中で説明した攻撃の１つについて、
              攻撃するため入力内容とその結果の画面について、
              実際に実施して、レポートにまとめてください。</li>

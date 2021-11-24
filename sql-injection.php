@@ -16,7 +16,7 @@ Enter ID<input type="text" name="id" /><input type="submit" />
 <pre>
 <?php
      try {
-         $db = new PDO( "sqlite:$dbfile" ) ;
+         $db = new PDO( "sqlite:$dbfile" , SQLITE3_OPEN_READONLY ) ;
 
          $sql = "select * from ID_Profile where id='$id' ;" ;
          $count = 0 ;
@@ -27,13 +27,13 @@ Enter ID<input type="text" name="id" /><input type="submit" />
                  printf( "%d %s %s\n" , ++$count , $result[0] , $result[1] ) ;
              }
          } else {
-             // print_r( $db->errorInfo() ) ;
+             print_r( $db->errorInfo() ) ;
          }
          if ( $count == 0 ) {
              print( "input user-id like t-saitoh\n" ) ;
          }
      } catch( PDOException $e ) {
-         // die( 'Error: '.$e->getMessage() ) ;
+         die( 'Error: '.$e->getMessage() ) ;
      }
 ?>
 </pre>
