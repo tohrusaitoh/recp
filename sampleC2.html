@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Sample Page 12(JSONデータの読み込み)</title>
+    <script src="https://tsaitoh.net/~t-saitoh/recp/jquery/jquery.min.js"></script>
+    <script type="text/javascript">
+      // このプログラムは、sample8.html を
+      //    JSONファイルを読み込むように
+      //    書き換えたものです。
+      $(function() {
+	  $.getJSON( "sampleC.json" , function(item_list) {
+	      let text = "<table border='1'>" ;
+	      text += "<tr><th>id</th><th>name</th><th>price</th></tr>" ;
+	      for( let item of item_list ) {
+		  text += "<tr>"
+		      + "<td>"+item.id+"</td>"
+		      + "<td>"+item.name+"</td>"
+		      + "<td>"+item.price+"</td></tr>" ;
+	      }
+	      document.getElementById( "output" ).innerHTML
+		  = text ;
+	  })
+      }) ;
+    </script>
+  </head>
+  <body>
+    <h1>Sample Page 12<br/>(JSONデータの読み込み)</h1>
+    <div id="output"></div>
+  </body>
+</html>
+
+<!-- Local Variables: -->
+<!-- mode: html -->
+<!-- tab-width: 8 -->
+<!-- End: -->
