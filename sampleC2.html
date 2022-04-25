@@ -9,7 +9,7 @@
       //    JSONファイルを読み込むように
       //    書き換えたものです。
       $(function() {
-	  $.getJSON( "https://tsaitoh.net/~t-saitoh/recp/sampleC.json" , function(item_list) {
+	  $.getJSON( "sampleC.json" , function(item_list) {
 	      let text = "<table border='1'>" ;
 	      text += "<tr><th>id</th><th>name</th><th>price</th></tr>" ;
 	      for( let item of item_list ) {
