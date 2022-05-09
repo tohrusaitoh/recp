@@ -1,4 +1,5 @@
 <?php
+ // Sample Page 19(データベースの結果をJSON形式で返す
  header( "Content-Type: application/json; charset=utf-8" ) ;
 
  $dbh = new PDO( "sqlite:shopping.db" ) ;
