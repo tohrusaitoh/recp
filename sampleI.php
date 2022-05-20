@@ -61,10 +61,17 @@
       </table>
       <?php
        if ( isset( $_REQUEST["b_count"] ) ) {
+
          // ターミナルで、recp フォルダ, shopping.db への書き込み許可が必要
-	 // > chmod 777 ~/public_html/recp
-         // > chmod 666 ~/public_html/recp/shopping.db
-         // $dbh = new PDO( "sqlite:shopping.db" ) ;
+
+	 // ((recp, shopping.db を www-data グループに設定))
+	 // > chgrp www-data ~/public_html/recp
+         // > chgrp www-data ~/public_html/shopping.db
+      
+         // ((recp, shopping.db を グループ書き込み許可に設定))
+	 // > chmod 775 ~/public_html/recp
+         // > chmod 664 ~/public_html/recp/shopping.db
+
          foreach( $_REQUEST["b_count"] as $i_id => $b_count ) {
       
            // 作成するSQL命令: insert into BUYLIST(i_id,...) values(1001,...)
@@ -76,6 +83,7 @@
 	   // 書き込み権限の設定が面倒なので、SQLを確認するだけ
            print "$sql\n<br/>" ;
            // $ans = $dbh->exec( $sql ) ;
+           // print "$ans\n<br/>" ;
          }
        }
        ?>
