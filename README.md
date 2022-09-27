@@ -9,20 +9,20 @@
 
 ## 資料配布ページ
 
-- https://tsaitoh.net/~t-saitoh/2021-11-recp/
+- https://tsaitoh.net/~t-saitoh/2022-10-recp/
 
 ## プログラミング応用の予定
-- *2021/11/07*
-	- [Webアプリケーションとプログラム言語](https://tsaitoh.net/~t-saitoh/2021-11-recp/2021-11-07-recp-1.pdf)
+- *2022/10/01*
+	- [Webアプリケーションとプログラム言語](https://tsaitoh.net/~t-saitoh/2022-10-recp/2022-10-01-recp-1.pdf)
 
-- *2021/11/14*
-	- [JavaScriptによるフロントエンドプログラミング](https://tsaitoh.net/~t-saitoh/2021-11-recp/2021-11-07-recp-2.pdf)
+- *2022/10/08*
+	- [JavaScriptによるフロントエンドプログラミング](https://tsaitoh.net/~t-saitoh/2022-10-recp/2022-10-08-recp-2.pdf)
 
-- *2021/11/21*
-	- [PHPによるバックエンドプログラミング](https://tsaitoh.net/~t-saitoh/2021-11-recp/2021-11-07-recp-3.pdf)
+- *2022/10/22*
+	- [PHPによるバックエンドプログラミング](https://tsaitoh.net/~t-saitoh/2022-10-recp/2022-10-22-recp-3.pdf)
 	
-- *2021/11/28*
-	- [Webプログラミングとセキュリティ](https://tsaitoh.net/~t-saitoh/2021-11-recp/2021-11-07-recp-3.pdf)
+- *2022/10/29*
+	- [Webプログラミングとセキュリティ](https://tsaitoh.net/~t-saitoh/2022-10-recp/2022-10-29-recp-4.pdf)
 
 ## サーバで講義データのダウンロード
 
