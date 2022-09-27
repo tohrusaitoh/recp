@@ -2,6 +2,9 @@
 $doc_dir = "documents" ;
 // index.php へのアクセス時は、フォルダへのアクセス制限を付けたページに移動
 if ( preg_match( "/\/recp\//" , $_SERVER[ "REQUEST_URI" ] )
+     && file_exists( "../2022-10-recp/index.php" ) ) {
+    header( "Location: ../2022-10-recp/" ) ;
+} else if ( preg_match( "/\/recp\//" , $_SERVER[ "REQUEST_URI" ] )
      && file_exists( "../2021-11-recp/index.php" ) ) {
     header( "Location: ../2021-11-recp/" ) ;
 } else {
@@ -25,8 +28,8 @@ if ( preg_match( "/\/recp\//" , $_SERVER[ "REQUEST_URI" ] )
     <h2>講義内容と講義資料</h2>
     <ul>
       <li>
-	<a href="<?php echo $doc_dir ; ?>/2021-11-07-recp-1.pdf">
-	  Webアプリケーションとプログラム言語(11/07)</a>
+	<a href="<?php echo $doc_dir ; ?>/2022-10-01-recp-1.pdf">
+	  Webアプリケーションとプログラム言語(10/01)</a>
 	<ul>
 	  <li>
 	    インターネットやWebの仕組みについて理解し、
@@ -35,7 +38,7 @@ if ( preg_match( "/\/recp\//" , $_SERVER[ "REQUEST_URI" ] )
 	  <li>
         課題レポート
         <ol>
-            <li><a href="https://forms.gle/osj3RNfzBhvTH1sk9">理解度確認(11/07)</a>
+            <li><a href="https://forms.gle/osj3RNfzBhvTH1sk9">理解度確認(10/01)</a>
                        (Google Formsに回答してください)</li>
             <li>nslookup コマンドで、www.fukui-nct.ac.jp のIPアドレスを調べてください。</li>
             <li>そのIPアドレスを使ってWebページを開いてください。<br/>
@@ -52,7 +55,7 @@ if ( preg_match( "/\/recp\//" , $_SERVER[ "REQUEST_URI" ] )
 	<br />
       </li>
       <li>
-	<a href="<?php echo $doc_dir ; ?>/2021-11-14-recp-2.pdf">JavaScriptによるフロントエンドプログラミング(11/14)</a>
+	<a href="<?php echo $doc_dir ; ?>/2022-10-08-recp-2.pdf">JavaScriptによるフロントエンドプログラミング(10/08)</a>
 	<ul>
 	  <li>
 	    Webブラウザ側で動くプログラム言語としてのJavaScriptについて、
@@ -61,7 +64,7 @@ if ( preg_match( "/\/recp\//" , $_SERVER[ "REQUEST_URI" ] )
 	  <li>
         課題レポート
         <ol>
-	    <li><a href="https://forms.gle/HTpozcBcnnqaydMf8">理解度確認(11/14)</a></li>
+	    <li><a href="https://forms.gle/HTpozcBcnnqaydMf8">理解度確認(10/08)</a></li>
         <li>練習問題(棒グラフ)sample6.htmlの穴埋めした結果のHTMLのソースを
             画面のキャプチャし、レポートにまとめてください。</li>
         <li>もしくは、練習問題(配列との串刺し)sample9.htmlの
@@ -76,7 +79,7 @@ if ( preg_match( "/\/recp\//" , $_SERVER[ "REQUEST_URI" ] )
 	<br />
       </li>
       <li>
-	<a href="<?php echo $doc_dir ; ?>/2021-11-21-recp-3.pdf">PHPによるバックエンドプログラミング(11/21)</a>
+	<a href="<?php echo $doc_dir ; ?>/2022-10-22-recp-3.pdf">PHPによるバックエンドプログラミング(10/22)</a>
 	<ul>
 	  <li>
 	    Webサーバで動くプログラム言語としての PHP について、
@@ -102,7 +105,7 @@ if ( preg_match( "/\/recp\//" , $_SERVER[ "REQUEST_URI" ] )
 	<br />
       </li>
       <li>
-	<a href="<?php echo $doc_dir ; ?>/2021-11-28-recp-4.pdf">Webプログラミングとセキュリティ(11/28)</a>
+	<a href="<?php echo $doc_dir ; ?>/2022-10-29-recp-4.pdf">Webプログラミングとセキュリティ(10/29)</a>
 	<ul>
 	  <li>
 	    Web プログラミングと、サイバー攻撃について考える。
@@ -111,7 +114,7 @@ if ( preg_match( "/\/recp\//" , $_SERVER[ "REQUEST_URI" ] )
 	  <li>
         課題レポート
         <ol>
-	    <li><a href="https://forms.gle/YtPadHirnDENSHCf9">理解度確認(11/28)</a></li>
+	    <li><a href="https://forms.gle/YtPadHirnDENSHCf9">理解度確認(10/29)</a></li>
         <li>講義の中で説明した攻撃の１つについて、
              攻撃するため入力内容とその結果の画面について、
              実際に実施して、レポートにまとめてください。</li>
