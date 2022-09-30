@@ -32,9 +32,13 @@ if ( preg_match( "/\/recp\//" , $_SERVER[ "REQUEST_URI" ] )
 	  Webアプリケーションとプログラム言語(10/01)</a>
 	<ul>
 	  <li>
+	    配布データ	<a href="<?php echo $doc_dir ; ?>/2022-10-01-recp-1.zip">2022-10-01-recp-1.zip</a>
+	  </li>
+	  <li>
 	    インターネットやWebの仕組みについて理解し、
 	    その中でJavaScriptやPHPなどのプログラム言語がどう使われるのか
 	  </li>
+    <!--
 	  <li>
         課題レポート
         <ol>
@@ -51,7 +55,9 @@ if ( preg_match( "/\/recp\//" , $_SERVER[ "REQUEST_URI" ] )
                  提出してください。</li>
         </ol>
 	  </li>
+    -->
 	</ul>
+    <!--
 	<br />
       </li>
       <li>
@@ -124,6 +130,8 @@ if ( preg_match( "/\/recp\//" , $_SERVER[ "REQUEST_URI" ] )
 	</ul>
 	<br />
       </li>
+    -->
+    <br />    <br />    <br />    <br />    <br />    <br />    <br />    <br />    <br />    <br />
     </ul>
     <h2>Paiza Cloudで資料をダウンロードする方法</h2>
     <ul>
