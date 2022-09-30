@@ -38,24 +38,25 @@ if ( preg_match( "/\/recp\//" , $_SERVER[ "REQUEST_URI" ] )
 	    インターネットやWebの仕組みについて理解し、
 	    その中でJavaScriptやPHPなどのプログラム言語がどう使われるのか
 	  </li>
-    <!--
 	  <li>
         課題レポート
         <ol>
-            <li><a href="https://forms.gle/osj3RNfzBhvTH1sk9">理解度確認(10/01)</a>
+            <li><a href="https://forms.gle/RUvuFFs9weNLWdii6">理解度確認(10/01)</a>
                        (Google Formsに回答してください)</li>
             <li>nslookup コマンドで、www.fukui-nct.ac.jp のIPアドレスを調べてください。</li>
             <li>そのIPアドレスを使ってWebページを開いてください。<br/>
 				最近のブラウザは http://x.x.x.x で開くと、
 				「安全か確認できないけど開きますか？」といった警告がでますが、
-                「危険性を理解したうえで開く」を実行してみてください。
-                 </li>
-            <li>2,3で確認した内容の画面をキャプチャしたものをレポートにまとめ、
-                 メールで<a href="mailto:tsaitoh@fukui-nct.ac.jp">tsaitoh@fukui-nct.ac.jp</a>に
-                 提出してください。</li>
+                「危険性を理解したうえで開く」を実行してみてください。</li>
+	    <li>
+		自分の自己紹介の文章を C:\xampp\htdocs\recp\profile.html に作成し、
+		ブラウザで http://localhost/recp/profile.html を表示させてください。</li>
+            <li>2,3で確認した内容の画面をキャプチャしたものと、
+		4で作成したページの画面をキャプチャしたものをレポートにまとめ、
+                メールで<a href="mailto:tsaitoh@fukui-nct.ac.jp">tsaitoh@fukui-nct.ac.jp</a>に
+                提出してください。</li>
         </ol>
 	  </li>
-    -->
 	</ul>
     <!--
 	<br />
