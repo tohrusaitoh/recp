@@ -58,12 +58,14 @@ if ( preg_match( "/\/recp\//" , $_SERVER[ "REQUEST_URI" ] )
         </ol>
 	  </li>
 	</ul>
-    <!--
 	<br />
       </li>
       <li>
 	<a href="<?php echo $doc_dir ; ?>/2022-10-08-recp-2.pdf">JavaScriptによるフロントエンドプログラミング(10/08)</a>
 	<ul>
+	  <li>
+	    配布データ	<a href="<?php echo $doc_dir ; ?>/2022-10-08-recp-2.zip">2022-10-08-recp-2.zip</a>
+	  </li>
 	  <li>
 	    Webブラウザ側で動くプログラム言語としてのJavaScriptについて、
 	    基本的な文法と使い方を理解を目指す
@@ -83,6 +85,7 @@ if ( preg_match( "/\/recp\//" , $_SERVER[ "REQUEST_URI" ] )
         </ol>
 	  </li>
 	</ul>
+    <!--
 	<br />
       </li>
       <li>

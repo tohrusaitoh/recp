@@ -34,8 +34,8 @@ shopping.db:	sampleG-itemlist.sql	\
 		bash sampleG.sh
 clean:;		rm -f *.db
 
-2022-recp:	../2022-10-recp/2022-10-01-recp-1.zip
-		#../2022-10-recp/2022-10-08-recp-2.zip	\
+2022-recp:	../2022-10-recp/2022-10-01-recp-1.zip	\
+		../2022-10-recp/2022-10-08-recp-2.zip
 		#../2022-10-recp/2022-10-22-recp-3.zip	\
 		#../2022-10-recp/2022-10-29-recp-4.zip
 
@@ -44,4 +44,11 @@ clean:;		rm -f *.db
 		documents/2022-10-01-recp-1.pptx documents/2022-10-01-recp-1.pdf 
 	zip ../2022-10-recp/2022-10-01-recp-1.zip	$^
 
-		
+../2022-10-recp/2022-10-08-recp-2.zip:	README.md index.php \
+		sample3.html sample4.html sample5.html sample6.html sample6-answer.html	\
+		sample7.html sample8.html sample9.html sample9-answer.html	\
+		sampleA.html sampleA.css sampleB.html sampleB2.html \
+		sampleC.html sampleC.json sampleC2.html
+		documents/2022-10-08-recp-2.pptx documents/2022-10-08-recp-2.pdf 
+	zip ../2022-10-recp/2022-10-08-recp-2.zip	$^ jquery/*
+
