@@ -47,8 +47,8 @@ clean:;		rm -f *.db
 ../2022-10-recp/2022-10-08-recp-2.zip:	README.md index.php \
 		sample3.html sample4.html sample5.html sample6.html sample6-answer.html	\
 		sample7.html sample8.html sample9.html sample9-answer.html	\
-		sampleA.html sampleA.css sampleB.html sampleB2.html \
-		sampleC.html sampleC.json sampleC2.html
-		documents/2022-10-08-recp-2.pptx documents/2022-10-08-recp-2.pdf 
+		sampleA.html sampleA.css sampleB.html sampleB2.html		\
+		sampleC.html sampleC.json sampleC2.html				\
+		documents/2022-10-08-recp-2.pptx documents/2022-10-08-recp-2.pdf
 	zip ../2022-10-recp/2022-10-08-recp-2.zip	$^ jquery/*
 
