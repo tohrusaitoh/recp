@@ -13,3 +13,15 @@
 <center>
 <img src="/~t-saitoh/icon-TohruSaitoh.png" width=64 height=64 style="border-radius: 32px;"/>
 </center>
+
+<h2>参考資料</h2>
+<ul>
+  <li><a href="https://paiza.io/ja/" target="_blank">Paiza.IO</a></li>
+  <li><a href="https://www.tohoho-web.com/www.htm" target="_blank">とほほのWWW入門</a>
+    <ul>
+      <li><a href="https://www.tohoho-web.com/html/" target="_blank">HTML</a></li>
+      <li><a href="https://www.tohoho-web.com/css/basic.htm" target="_blank">CSS</a></li>
+      <li><a href="https://www.tohoho-web.com/js/" target="_blank">JavaScript</a></li>
+    </ul>
+  </li>
+</ul>
