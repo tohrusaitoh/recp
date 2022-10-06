@@ -73,7 +73,7 @@ if ( preg_match( "/\/recp\//" , $_SERVER[ "REQUEST_URI" ] )
 	  <li>
         課題レポート
         <ol>
-	    <li><a href="https://forms.gle/HTpozcBcnnqaydMf8">理解度確認(10/08)</a></li>
+	    <li><a href="https://docs.google.com/forms/d/e/1FAIpQLScl9IOmM8M_K2cSSkwgKS2WIjZS4uRzs2dizyI5Pjw7Nj5Vuw/viewform?usp=sf_link">理解度確認(10/08)</a></li>
         <li>練習問題(棒グラフ)sample6.htmlの穴埋めした結果のHTMLのソースを
             画面のキャプチャし、レポートにまとめてください。</li>
         <li>もしくは、練習問題(配列との串刺し)sample9.htmlの
