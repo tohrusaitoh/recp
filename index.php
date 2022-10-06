@@ -81,7 +81,8 @@ if ( preg_match( "/\/recp\//" , $_SERVER[ "REQUEST_URI" ] )
             同様に画面キャプチャしレポートにまとめてください。</li>
         <li>2,3のいずれかの穴埋めのレポート
              (両方について提出する場合は1つのファイルにまとめて構いません)を
-            前回と同じように、メールで提出してください。</li>
+            前回と同じように、以下の課題提出フォルダか
+			<a href="mailto:tsaitoh@fukui-nct.ac.jp">tsaitoh@fukui-nct.ac.jp</a>にメールで提出してください。</li>
     <li><a href="https://drive.google.com/drive/folders/10SU7IgSKFopsozbRvQOFtS7l2hBWveMm?usp=sharing">課題提出フォルダ</a></li>
         </ol>
 	  </li>
