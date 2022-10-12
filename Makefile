@@ -35,8 +35,8 @@ shopping.db:	sampleG-itemlist.sql	\
 clean:;		rm -f *.db
 
 2022-recp:	../2022-10-recp/2022-10-01-recp-1.zip	\
-		../2022-10-recp/2022-10-08-recp-2.zip
-		#../2022-10-recp/2022-10-22-recp-3.zip	\
+		../2022-10-recp/2022-10-08-recp-2.zip	\
+		../2022-10-recp/2022-10-22-recp-3.zip
 		#../2022-10-recp/2022-10-29-recp-4.zip
 
 ../2022-10-recp/2022-10-01-recp-1.zip:	README.md index.php \
@@ -53,3 +53,9 @@ clean:;		rm -f *.db
 		documents/2022-10-08-recp-2.pptx documents/2022-10-08-recp-2.pdf
 	zip ../2022-10-recp/2022-10-08-recp-2.zip	$^ jquery/*
 
+../2022-10-recp/2022-10-22-recp-3.zip:	README.md index.php		\
+		sampleD.php sampleD-table.php sampleD-table-answer.php	\
+		sampleE.php sampleF.php					\
+		sampleH.php sampleI.php sampleJ.php sampleK.html	\
+		shopping.db	\
+		documents/2022-10-22-recp-3.pptx documents/2022-10-22-recp-3.pdf
