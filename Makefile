@@ -55,6 +55,7 @@ clean:;		rm -f *.db
 ../2022-10-recp/2022-10-22-recp-3.zip:	README.md index.php		\
 		sampleD.php sampleD-table.php sampleD-table-answer.php	\
 		sampleE.php sampleF.php					\
+		sampleG.sql						\
 		sampleH.php sampleI.php sampleJ.php sampleK.html	\
 		shopping.db	\
 		documents/2022-10-22-recp-3.pptx documents/2022-10-22-recp-3.pdf

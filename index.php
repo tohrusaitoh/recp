@@ -87,20 +87,25 @@ if ( preg_match( "/\/recp\//" , $_SERVER[ "REQUEST_URI" ] )
         </ol>
 	  </li>
 	</ul>
-    <!--
 	<br />
       </li>
       <li>
 	<a href="<?php echo $doc_dir ; ?>/2022-10-22-recp-3.pdf">PHPによるバックエンドプログラミング(10/22)</a>
 	<ul>
-	  <li>
-	    Webサーバで動くプログラム言語としての PHP について、
-	    基本的な文法と、ブラウザ側からのデータの受け渡しの仕組みを理解
-	  </li>
+    <li>
+    配布データ	<a href="<?php echo $doc_dir ; ?>/2022-10-22-recp-3.zip">2022-10-22-recp-3.zip</a>
+    </li>
+    <li>
+    Webサーバで動くプログラム言語としての PHP について、
+    基本的な文法と、ブラウザ側からのデータの受け渡しの仕組みを理解
+    </li>
+    <li>
+    <a href="https://paiza.io/projects/PQV0_7tdfKtKi6rmgYW7Jg">品目・顧客・購入データベース(Paiza.IO)</a>
+    </li>
 	  <li>
         課題レポート
         <ol>
-	    <li><a href="https://forms.gle/Y9xYNBsZwTDDHjcs9">理解度確認(11/21)</a></li>
+	    <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfTs1EkWJsH7B7pFpP93vMXZWbEZjQn78cFz1XrJ0njHLUSQQ/viewform?usp=sf_link">理解度確認(10/22)</a></li>
         <li>練習問題 PHPによる Hello World の練習問題 sampleD-table.php について、
             スタイルシートを使うように改良し、そのプログラムとその修正結果について、
             画面キャプチャなどでレポートにまとめてください。</li>
@@ -114,6 +119,7 @@ if ( preg_match( "/\/recp\//" , $_SERVER[ "REQUEST_URI" ] )
         </ol>
 	  </li>
 	</ul>
+    <!--
 	<br />
       </li>
       <li>
