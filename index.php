@@ -100,7 +100,10 @@ if ( preg_match( "/\/recp\//" , $_SERVER[ "REQUEST_URI" ] )
     基本的な文法と、ブラウザ側からのデータの受け渡しの仕組みを理解
     </li>
     <li>
-    <a href="https://paiza.io/projects/PQV0_7tdfKtKi6rmgYW7Jg">品目・顧客・購入データベース(Paiza.IO)</a>
+    <a href="hhttps://paiza.io/projects/ku21QKvputzO190-CmrX8Q">品目データベース sampleG-itemlist.sql</a>(Paiza.IO)
+    </li>
+    <li>
+    <a href="https://paiza.io/projects/PQV0_7tdfKtKi6rmgYW7Jg">品目・顧客・購入データベース sampleG.sql</a>(Paiza.IO)
     </li>
 	  <li>
         課題レポート
