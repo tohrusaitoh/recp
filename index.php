@@ -98,14 +98,30 @@ if ( preg_match( "/\/recp\//" , $_SERVER[ "REQUEST_URI" ] )
     <li>
     Webサーバで動くプログラム言語としての PHP について、
     基本的な文法と、ブラウザ側からのデータの受け渡しの仕組みを理解
+    <ul>
+    <li>
+    <a href="https://paiza.io/projects/rVL3c8o3YEx3ok9Erfb2Aw">関数と配列の繰り返し</a>(Paiza.IO)
     </li>
+    <li>
+    <a href="https://paiza.io/projects/elzf2OESpac80QtYjfNSQg">オブジェクト配列の参照</a>(Paiza.IO)
+    </li>
+    <li>
+    <a href="https://paiza.io/projects/pEJ6KReJskR_FE7GttGMsw">オブジェクト配列の串刺し</a>(Paiza.IO)
+    </li>
+    </ul>
+    </li>
+    <li>
+    Webサーバで使われるデータベースを扱うSQLについて、文法や仕組みを理解
+    <ul>
     <li>
     <a href="https://paiza.io/projects/ku21QKvputzO190-CmrX8Q">品目データベース sampleG-itemlist.sql</a>(Paiza.IO)
     </li>
     <li>
     <a href="https://paiza.io/projects/PQV0_7tdfKtKi6rmgYW7Jg">品目・顧客・購入データベース sampleG.sql</a>(Paiza.IO)
     </li>
-	  <li>
+    </ul>
+    </li>
+    <li>
         課題レポート
         <ol>
 	    <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfTs1EkWJsH7B7pFpP93vMXZWbEZjQn78cFz1XrJ0njHLUSQQ/viewform?usp=sf_link">理解度確認(10/22)</a></li>
