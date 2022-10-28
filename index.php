@@ -138,7 +138,6 @@ if ( preg_match( "/\/recp\//" , $_SERVER[ "REQUEST_URI" ] )
         </ol>
 	  </li>
 	</ul>
-    <!--
 	<br />
       </li>
       <li>
@@ -161,8 +160,7 @@ if ( preg_match( "/\/recp\//" , $_SERVER[ "REQUEST_URI" ] )
 	</ul>
 	<br />
       </li>
-    -->
-    <br />    <br />    <br />    <br />    <br />    <br />    <br />    <br />    <br />    <br />
+		<?php for( $i = 0 ; $i < 10 ; $i++ ) echo "<br/>" ; ?>
     </ul>
     <h2>Paiza Cloudで資料をダウンロードする方法</h2>
     <ul>
